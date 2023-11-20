@@ -1,0 +1,17 @@
+# Author: Arthur Cadore M. Barcella
+# github: arthurcadore
+# File: Main coposition file for web server and proxy
+# =======================================================
+version: "3"
+services:
+# =======================================================
+# CapacitaHub application
+  sigcloud:
+    build:
+      context: ./docker/
+      dockerfile: ./docker/Dockerfile
+    container_name: sigCloud-Capacita
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./src/:/project/
