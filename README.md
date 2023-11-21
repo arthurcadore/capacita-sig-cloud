@@ -29,9 +29,7 @@ cd ./capacita-sig-cloud
 If you don't have Docker (and Docker-compose) installed on your system yet, it can be installed by run the following commands (Script for Ubuntu 22.04): 
 
 ```
-chmod +x ./installDocker.sh
-
-./installDocker.sh
+./docker/installDocker.sh
 ```
 
 ### Start Application's Container: 
