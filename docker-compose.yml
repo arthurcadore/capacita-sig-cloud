@@ -13,6 +13,6 @@ services:
     container_name: sigCloud-Capacita
     volumes:
     # Create volume mapping to container files: 
-      - "./src/:/project"
+      - "./src/eponadapter.jar:/project/eponadapter.jar"
       - "./logs/:/project/logs"
       - "./auth:/root/.config/sig-cloud"
