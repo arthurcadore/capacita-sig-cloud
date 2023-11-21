@@ -13,4 +13,5 @@ services:
     container_name: sigCloud-Capacita
     volumes:
       - "./src/:/project"
+      - "./logs/:/project/logs"
       - "./auth:/root/.config/sig-cloud"
