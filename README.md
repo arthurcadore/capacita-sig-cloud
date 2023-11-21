@@ -1,4 +1,4 @@
-# Intelbras's SIG Cloud Application with Docker
+# Intelbras's SIG Cloud Adapter with Docker
 
 ### Author: Arthur Cadore M. Barcella
 ### Network Training Analyst at Intelbras
