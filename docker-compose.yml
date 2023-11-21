@@ -8,7 +8,7 @@ services:
 # Sig Cloud adapter application container: 
   sigcloud:
     build:
-      context: ./docker/
+      context: .
       dockerfile: ./docker/Dockerfile
     container_name: sigCloud-Capacita
     volumes:
