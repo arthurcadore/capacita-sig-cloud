@@ -11,8 +11,14 @@ RUN echo "Author: Arthur Cadore M. B."
 RUN echo "Github: arthurcadore"
 RUN echo "Sig-Cloud Version: 4.1.1-ST"
 
+
+#COPY ./docker/startup.sh /project/
+
 # Defines work directory: 
 WORKDIR /project
 
+#COPY ../api/find-aplicacao /project/find-aplicacao
+#RUN /project/api/find-aplicacao
+
 # Initialize the application by running the application file: 
-CMD ["java", "-jar", "eponadapter.jar"]
+CMD ["./startup.sh"]
