@@ -16,7 +16,7 @@ Before you begin, ensure you have the following packages installed on your syste
 First, copy the line below and paste on your prompt to clone the repository:
 
 ```
-git clone -b api-client-included https://github.com/arthurcadore/capacita-sig-cloud
+git clone -b api-client-integrated https://github.com/arthurcadore/capacita-sig-cloud
 ```
 If you don't have installed the package Git yet, do it before try to clone the respository!
 
