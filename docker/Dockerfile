@@ -3,7 +3,7 @@
 # Github: arthurcadore
 # Capacitação Redes - PV Intelbras
 
-FROM eclipse-temurin:17-jdk-jammy
+FROM eclipse-temurin:11-jdk-jammy
 
 # Print application especifications during container building: 
 RUN echo "::::::::::::::::::::::::::: SIG CLOUD APPLICATION IN DOCKER  :::::::::::::::::::::::::::"
