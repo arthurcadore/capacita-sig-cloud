@@ -32,6 +32,7 @@ If you don't have Docker (and Docker-compose) installed on your system yet, it c
 ./docker/installDocker.sh
 ```
 
+---
 ### Start Application's Container: 
 
 To start the application container, first of all, configure the `.env` file located at `./api` directory, the file has the following structure: 
