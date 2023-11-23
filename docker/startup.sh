@@ -1,4 +1,5 @@
 #!/bin/bash
+
 ./find-aplicacao 
 ./find-token 
 
